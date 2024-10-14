@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./normalize.css" />
 </head>
@@ -30,21 +34,260 @@
             </div>
             <div class="profile__button"></button>
                 <div class="profile__button--image"></div>
-                <div class="profile__button--user-name"></div>
-                <div class="profile__button--rating-dynamic"></div>
-                <div class="profile__button--rating-static"></div>
+                <div class="profile__button--user-name">exam name</div>
+                <div class="profile__rating--container">
+                    <div class="profile__button--rating-dynamic">4.25</div>
+                    <div class="profile__button--rating-static">/5</div>
+                </div>
             </div>
         </div>
     </header>
 
     <main class="main">    
         <div class="main__picture"></div>
-        <h2>РЕКОМЕНДУЕМОЕ</h2>
+        <h2 class="title__rec">РЕКОМЕНДУЕМОЕ</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide rec__slide">
+                <div class="slide__image"></div>
+                <div class="slide__container">
+                    <h1 class="title__slide">Elden Ring</h1>
+                    <p class="slide__text">THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to
+                         brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.
+                    </p>
+                    <div class="grid__container">
+                        <div class="grid__elem--1"></div>
+                        <div class="grid__elem--2"></div>
+                        <div class="grid__elem--3"></div>
+                        <div class="grid__elem--4"></div>
+                    </div>
+                    <div class="style__container">
+                        <div class="style__block">
+                            <p class="style__name">Souls-like</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">RPG</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">Dark Fantasy</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">Open-world</p>
+                        </div>
+                        <div class="style__block">
+                            <div class="style__add"></div>
+                        </div>
+                    </div>
+                    <div class="slide__footer--container">
+                        <div class="slide__favorite--button">
+                            <div class="favorite__text">Избранное</div>
+                            <div class="favorite__icon"></div>
+                        </div>
+                        <div class="slide__rating">Рейтинг:</div>
+                        <div class="slide__rating--dynamic">94</div>
+                        <div class="slide__button--review">
+                            <div class="review__text">Оценить</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide rec__slide">
+                <div class="slide__image"></div>
+                <div class="slide__container">
+                    <h1 class="title__slide">Elden Ring</h1>
+                    <p class="slide__text">THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to
+                         brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.
+                    </p>
+                    <div class="grid__container">
+                        <div class="grid__elem--1"></div>
+                        <div class="grid__elem--2"></div>
+                        <div class="grid__elem--3"></div>
+                        <div class="grid__elem--4"></div>
+                    </div>
+                    <div class="style__container">
+                        <div class="style__block">
+                            <p class="style__name">Souls-like</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">RPG</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">Dark Fantasy</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">Open-world</p>
+                        </div>
+                        <div class="style__block">
+                            <div class="style__add"></div>
+                        </div>
+                    </div>
+                    <div class="slide__footer--container">
+                        <div class="slide__favorite--button">
+                            <div class="favorite__text">Избранное</div>
+                            <div class="favorite__icon"></div>
+                        </div>
+                        <div class="slide__rating">Рейтинг:</div>
+                        <div class="slide__rating--dynamic">94</div>
+                        <div class="slide__button--review">
+                            <div class="review__text">Оценить</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide rec__slide">
+                <div class="slide__image"></div>
+                <div class="slide__container">
+                    <h1 class="title__slide">Elden Ring</h1>
+                    <p class="slide__text">THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to
+                         brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.
+                    </p>
+                    <div class="grid__container">
+                        <div class="grid__elem--1"></div>
+                        <div class="grid__elem--2"></div>
+                        <div class="grid__elem--3"></div>
+                        <div class="grid__elem--4"></div>
+                    </div>
+                    <div class="style__container">
+                        <div class="style__block">
+                            <p class="style__name">Souls-like</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">RPG</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">Dark Fantasy</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">Open-world</p>
+                        </div>
+                        <div class="style__block">
+                            <div class="style__add"></div>
+                        </div>
+                    </div>
+                    <div class="slide__footer--container">
+                        <div class="slide__favorite--button">
+                            <div class="favorite__text">Избранное</div>
+                            <div class="favorite__icon"></div>
+                        </div>
+                        <div class="slide__rating">Рейтинг:</div>
+                        <div class="slide__rating--dynamic">94</div>
+                        <div class="slide__button--review">
+                            <div class="review__text">Оценить</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide rec__slide">
+                <div class="slide__image"></div>
+                <div class="slide__container">
+                    <h1 class="title__slide">Elden Ring</h1>
+                    <p class="slide__text">THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to
+                         brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.
+                    </p>
+                    <div class="grid__container">
+                        <div class="grid__elem--1"></div>
+                        <div class="grid__elem--2"></div>
+                        <div class="grid__elem--3"></div>
+                        <div class="grid__elem--4"></div>
+                    </div>
+                    <div class="style__container">
+                        <div class="style__block">
+                            <p class="style__name">Souls-like</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">RPG</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">Dark Fantasy</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">Open-world</p>
+                        </div>
+                        <div class="style__block">
+                            <div class="style__add"></div>
+                        </div>
+                    </div>
+                    <div class="slide__footer--container">
+                        <div class="slide__favorite--button">
+                            <div class="favorite__text">Избранное</div>
+                            <div class="favorite__icon"></div>
+                        </div>
+                        <div class="slide__rating">Рейтинг:</div>
+                        <div class="slide__rating--dynamic">94</div>
+                        <div class="slide__button--review">
+                            <div class="review__text">Оценить</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide rec__slide">
+                <div class="slide__image"></div>
+                <div class="slide__container">
+                    <h1 class="title__slide">Elden Ring</h1>
+                    <p class="slide__text">THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to
+                         brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.
+                    </p>
+                    <div class="grid__container">
+                        <div class="grid__elem--1"></div>
+                        <div class="grid__elem--2"></div>
+                        <div class="grid__elem--3"></div>
+                        <div class="grid__elem--4"></div>
+                    </div>
+                    <div class="style__container">
+                        <div class="style__block">
+                            <p class="style__name">Souls-like</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">RPG</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">Dark Fantasy</p>
+                        </div>
+                        <div class="style__block">
+                            <p class="style__name">Open-world</p>
+                        </div>
+                        <div class="style__block">
+                            <div class="style__add"></div>
+                        </div>
+                    </div>
+                    <div class="slide__footer--container">
+                        <div class="slide__favorite--button">
+                            <div class="favorite__text">Избранное</div>
+                            <div class="favorite__icon"></div>
+                        </div>
+                        <div class="slide__rating">Рейтинг:</div>
+                        <div class="slide__rating--dynamic">94</div>
+                        <div class="slide__button--review">
+                            <div class="review__text">Оценить</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
     </main>
+
     <footer class="footer"></footer>
     
 
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
 </body>
 
