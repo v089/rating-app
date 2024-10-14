@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./normalize.css" />
 </head>
-<body>
+
+<body class="body">
+    <header class="header">
+        <div class="nav__container"> 
+            <div class="logo">ЧТОТиМ</div>
+            <a class="active__button" href='#'>ГЛАВНАЯ</a>
+            <a class="static__button" href='#'>СООБЩЕСТВО</a>
+            <a class="static__button" href='#'>ПРОФИЛЬ</a>
+            <a class="static__button" href='#'>БИБЛЕОТЕКА</a>
+        </div>
+        <form class="header__form">
+            <input class="header__search" type="search" placeholder="Поиск...">
+        </form>
+        <div class="buttons__container">
+            <div class="button">
+                <div class="tracking__button--image"></div>
+            </div>
+            <div class="button"></button>
+                <div class="notification__button--image"></div>
+            </div>
+            <div class="profile__button"></button>
+                <div class="profile__button--image"></div>
+                <div class="profile__button--user-name"></div>
+                <div class="profile__button--rating-dynamic"></div>
+                <div class="profile__button--rating-static"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">    
+        <div class="main__picture"></div>
+        <h2>РЕКОМЕНДУЕМОЕ</h2>
+    </main>
+    <footer class="footer"></footer>
     
+
+    
+    <script src="./script.js"></script>
 </body>
+
 </html>
