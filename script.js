@@ -2,6 +2,10 @@ const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
+    
+    centeredSlides: true, // Включаем центрирование слайдов
+    slidesPerView: 'auto', // Устанавливаем количество видимых слайдов
+    spaceBetween: 10,
   
     // If we need pagination
     pagination: {
