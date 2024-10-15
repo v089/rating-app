@@ -348,3 +348,151 @@ color: #f3f3f3;
 margin-top: 11px;
 margin-left: 26.5px;
 }
+.container__release{
+    margin-left: 266px;
+    margin-top: 74px;
+    display: flex;
+    flex-direction: row;
+    gap: 1161px;
+}
+.title__release{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+color: #f3f3f3;
+}
+.show-more{
+    border: 1px solid rgba(118, 128, 140, 0.2);
+border-radius: 3px;
+width: 149px;
+height: 33px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: #76808c;
+background: rgba(118, 128, 140, 0.2);
+}
+
+.main__swiper{
+    width: 1330px;
+    height: 416px;
+    margin-top: 30px;
+
+}
+
+.release__slide{
+    width: 1279px;
+    height: 338px;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+.item__card{
+    border-radius: 5px;
+width: 409px;
+height: 338px;
+background: #0e141b;
+display: flex;
+flex-direction: column;
+}
+.card__image{
+    background: url(./image9.png);
+    border-radius: 3px;
+width: 379px;
+height: 197px;
+margin-top: 15px;
+margin-left: 15px;
+}
+.card__name{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 22px;
+color: #f3f3f3;
+margin-left: 15px;
+margin-top: 18px;
+}
+.card__elem--container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-top: 18px;
+}
+.win__logo{
+    background:  url(./1vector.svg);
+    width: 21px;
+    height: 22px;
+    margin-top: 7px;
+}
+.release-date{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color: #76808c;
+margin-top: 11px;
+margin-left: 12px;
+}
+.rating__block{
+    border-radius: 3px;
+width: 60px;
+height: 39px;
+background: #a1cd44;
+margin-left: 25px;
+}
+.rating__number{
+    text-align: center;
+    margin-top: 6px;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 22px;
+color: #000;
+}
+.message-count{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+width: 91px;
+margin-top: 4px;
+margin-left: 25px;
+}
+.slide__favorite--button--small{
+    border-radius: 3px;
+width: 47px;
+height: 44px;
+background: #1e2329;
+margin-left: 20px;
+}
+.container__free{
+    margin-left: 266px;
+    margin-top: 74px;
+    display: flex;
+    flex-direction: row;
+    gap: 1040px;
+}
+.card__image--D2{
+        border-radius: 3px;
+    width: 379px;
+    height: 197px;
+    margin-top: 15px;
+margin-left: 15px;
+    background: url(./image149.png);
+}
+
+.card__image--HI{
+    border-radius: 3px;
+width: 379px;
+height: 197px;
+margin-top: 15px;
+margin-left: 15px;
+background: url(./image1265.png);
+}
+.card__image--TF2{
+    border-radius: 3px;
+width: 379px;
+height: 197px;
+margin-top: 15px;
+margin-left: 15px;
+background: url(./image12313.png);
+}
