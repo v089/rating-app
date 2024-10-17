@@ -314,25 +314,28 @@ a {
     margin-top: 10px;
     margin-left: 10px;
 }
-.slide__rating{
+
+.slide__rating {
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 18px;
-text-align: right;
-color: #f3f3f3;
-margin-left: 62px;
-margin-top: 9.5px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: #f3f3f3;
+    margin-left: 62px;
+    margin-top: 9.5px;
 }
-.slide__rating--dynamic{
+
+.slide__rating--dynamic {
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 18px;
-text-align: right;
-color: #3dea00;
-margin-top: 9.5px;
-margin-left: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: #3dea00;
+    margin-top: 9.5px;
+    margin-left: 5px;
 }
-.slide__button--review{
+
+.slide__button--review {
     border-radius: 3px;
     width: 122px;
     height: 44px;
@@ -340,201 +343,224 @@ margin-left: 5px;
     background: #4b619b;
     margin-left: 13px;
 }
-.review__text{
+
+.review__text {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-color: #f3f3f3;
-margin-top: 11px;
-margin-left: 26.5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f3f3f3;
+    margin-top: 11px;
+    margin-left: 26.5px;
 }
-.container__release{
+
+.container__release {
     margin-left: 266px;
     margin-top: 74px;
     display: flex;
     flex-direction: row;
     gap: 1161px;
 }
-.title__release{
+
+.title__release {
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 18px;
-color: #f3f3f3;
-}
-.show-more{
-    border: 1px solid rgba(118, 128, 140, 0.2);
-border-radius: 3px;
-width: 149px;
-height: 33px;
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-color: #76808c;
-background: rgba(118, 128, 140, 0.2);
+    font-weight: 700;
+    font-size: 18px;
+    color: #f3f3f3;
 }
 
-.main__swiper{
+.show-more {
+    border: 1px solid rgba(118, 128, 140, 0.2);
+    border-radius: 3px;
+    width: 149px;
+    height: 33px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #76808c;
+    background: rgba(118, 128, 140, 0.2);
+}
+
+.main__swiper {
     width: 1330px;
     height: 416px;
     margin-top: 30px;
 
 }
 
-.release__slide{
+.release__slide {
     width: 1279px;
     height: 338px;
     display: flex;
     gap: 20px;
     margin-top: 30px;
     margin-left: 10px;
-    
+
 }
-.item__card{
+
+.item__card {
     border-radius: 5px;
-width: 409px;
-height: 338px;
-background: #0e141b;
-display: flex;
-flex-direction: column;
+    width: 409px;
+    height: 338px;
+    background: #0e141b;
+    display: flex;
+    flex-direction: column;
 }
-.card__image{
+
+.card__image {
     background: url(./image9.png);
     border-radius: 3px;
-width: 379px;
-height: 197px;
-margin-top: 15px;
-margin-left: 15px;
+    width: 379px;
+    height: 197px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
-.card__name{
+
+.card__name {
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 22px;
-color: #f3f3f3;
-margin-left: 15px;
-margin-top: 18px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #f3f3f3;
+    margin-left: 15px;
+    margin-top: 18px;
 }
-.card__elem--container{
+
+.card__elem--container {
     display: flex;
     flex-direction: row;
     margin-left: 15px;
     margin-top: 18px;
 }
-.win__logo{
-    background:  url(./1vector.svg);
+
+.win__logo {
+    background: url(./1vector.svg);
     width: 21px;
     height: 22px;
     margin-top: 7px;
 }
-.release-date{
+
+.release-date {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-color: #76808c;
-margin-top: 11px;
-margin-left: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #76808c;
+    margin-top: 11px;
+    margin-left: 12px;
 }
-.rating__block{
+
+.rating__block {
     border-radius: 3px;
-width: 60px;
-height: 39px;
-background: #a1cd44;
-margin-left: 25px;
+    width: 60px;
+    height: 39px;
+    background: #a1cd44;
+    margin-left: 25px;
 }
-.rating__number{
+
+.rating__number {
     text-align: center;
     margin-top: 6px;
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 22px;
-color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
 }
-.message-count{
+
+.message-count {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-color: #fff;
-width: 91px;
-margin-top: 4px;
-margin-left: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    width: 91px;
+    margin-top: 4px;
+    margin-left: 25px;
 }
-.slide__favorite--button--small{
+
+.slide__favorite--button--small {
     border-radius: 3px;
-width: 47px;
-height: 44px;
-background: #1e2329;
-margin-left: 20px;
+    width: 47px;
+    height: 44px;
+    background: #1e2329;
+    margin-left: 20px;
 }
-.container__free{
+
+.container__free {
     margin-left: 266px;
     margin-top: 74px;
     display: flex;
     flex-direction: row;
     gap: 1058px;
 }
-.card__image--D2{
-        border-radius: 3px;
+
+.card__image--D2 {
+    border-radius: 3px;
     width: 379px;
     height: 197px;
     margin-top: 15px;
-margin-left: 15px;
+    margin-left: 15px;
     background: url(./image149.png);
 }
 
-.card__image--HI{
+.card__image--HI {
     border-radius: 3px;
-width: 379px;
-height: 197px;
-margin-top: 15px;
-margin-left: 15px;
-background: url(./image1265.png);
+    width: 379px;
+    height: 197px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background: url(./image1265.png);
 }
-.card__image--TF2{
+
+.card__image--TF2 {
     border-radius: 3px;
-width: 379px;
-height: 197px;
-margin-top: 15px;
-margin-left: 15px;
-background: url(./image12313.png);
+    width: 379px;
+    height: 197px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background: url(./image12313.png);
 }
-.container__trand{
+
+.container__trand {
     gap: 1152px;
     margin-left: 266px;
     margin-top: 74px;
     display: flex;
     flex-direction: row;
 }
-.card__image--CS2{
+
+.card__image--CS2 {
     border-radius: 3px;
     width: 379px;
     height: 197px;
     margin-top: 15px;
-margin-left: 15px;
+    margin-left: 15px;
     background: url(./ck2.png);
 }
-.card__image--WM{
+
+.card__image--WM {
     border-radius: 3px;
     width: 379px;
     height: 197px;
     margin-top: 15px;
-margin-left: 15px;
+    margin-left: 15px;
     background: url(./imagewlm.png);
 }
-.card__image--TB{
+
+.card__image--TB {
     border-radius: 3px;
     width: 379px;
     height: 197px;
     margin-top: 15px;
-margin-left: 15px;
+    margin-left: 15px;
     background: url(./imagetb.png);
 }
-.container__leaders{
+
+.container__leaders {
     gap: 1072px;
     margin-left: 266px;
     margin-top: 74px;
     display: flex;
     flex-direction: row;
 }
-.footer{
+
+.footer {
     width: 100%;
     max-width: 1920px;
     display: flex;
@@ -543,56 +569,63 @@ margin-left: 15px;
     height: 325px;
     margin-top: 143px;
 }
-.footer__first--container{
+
+.footer__first--container {
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin-top: 46px;
     margin-left: 762px;
 }
-.footer__text{
+
+.footer__text {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-color: #f3f3f3;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f3f3f3;
 }
-.footer__second--container{
+
+.footer__second--container {
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin-top: 46px;
     margin-left: 155px;
 }
-.social__f{
-    border-radius: 3px;
-width: 47px;
-height: 47px;
-background: rgba(118, 128, 140, 0.05);
-align-content: center;
-margin-left: 246px;
-margin-top: 53px;
 
-    
+.social__f {
+    border-radius: 3px;
+    width: 47px;
+    height: 47px;
+    background: rgba(118, 128, 140, 0.05);
+    align-content: center;
+    margin-left: 246px;
+    margin-top: 53px;
+
+
 }
-.social__x--logo{
+
+.social__x--logo {
     background: url(./x.png);
     width: 21px;
     height: 22px;
     margin-left: 10px;
 }
-.social__f--logo{
+
+.social__f--logo {
     background: url(./f.png);
     margin-left: 17px;
     width: 14px;
     height: 26px;
-    
+
 }
-.social__x{
+
+.social__x {
     border-radius: 3px;
-width: 47px;
-height: 47px;
-background: rgba(118, 128, 140, 0.05);
-align-content: center;  
-margin-top: 53px; 
-margin-left: 13px;
+    width: 47px;
+    height: 47px;
+    background: rgba(118, 128, 140, 0.05);
+    align-content: center;
+    margin-top: 53px;
+    margin-left: 13px;
 }
